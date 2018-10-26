@@ -40,6 +40,9 @@
             margin-top: 2rem;
             margin-bottom: 0.5rem;
         }
+        .gray{
+            color: gray;
+        }
     </style>
 </head>
 <body>
@@ -55,6 +58,7 @@
 
     <h3>Set the ref payload for the widget</h3>
     <div>
+        <div><small class="gray">Valid characters are a-z A-Z 0-9 +/=-._</small></div>
         <input title="refPayload" type="text" id="refPayloadInput" value="payload" />
     </div>
     <code id="refPayloadCode">MC.getWidget(3548033).setPayload("payload")</code>
